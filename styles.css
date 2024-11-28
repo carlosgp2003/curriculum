@@ -1,0 +1,29 @@
+body{
+
+    font-family: 'Times New Roman',sans-serif ;
+}
+header, footer {
+    .note {
+        font-size: 150%;
+        color:dodgerblue;
+    }
+    background-color:slategrey;
+    color:azure;
+    text-align: center;
+    padding: 15px;
+}
+main{
+    padding: 20px;
+    text-align: center;
+    background-color:blanchedalmond;
+    color:darkkhaki;
+}
+
+.contenedor1{
+    color: cadetblue;
+
+}
+.contenedor2{
+    color:navy;
+    
+}

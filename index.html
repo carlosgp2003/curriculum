@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- Indica el formato del archivo -->
+<html lang="es"> <!-- Indica el inicio del codigo HTML -->
+
+<head>
+    <!--palabras claves para motores de busqueda-->
+    <meta keywords="gestion,sistemas,quinto">
+
+    <!--Tipo de codificación de los archivos html -->
+    <meta charset="Uft-8"> <!--UTF-8 acepta caracteres especiales-->
+
+    <!--Titulo de la interfaz-->
+    <title>Mi HTML</title>
+    <!--Referenciar al css-->
+    <link rel="stylesheet" href="styles.css"> <!--Archivo css-->
+</head> <!-- Espacio de importacion de librerias y metadata-->
+
+<body> <!--Contenido del html-->
+    <header>
+        <h1>Mi primera pag <span class="note">HTML</span></h1>
+    </header>
+    <main>
+        <div class="contenedor1">
+      
+            <form>
+                <label for="fname">Nombres:</label><br>
+                <input type="text" id="fname" name="fname" value="Carlos Ariel"><br>
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" name="lname" value="Guanoliquin Paucar"><br>
+                <label for="fname">Dirección:</label><br>
+                <input type="text" id="fname" name="fname" value="Ecuador-Quito-Amaguaña"><br>
+                <label for="lname">Telefono:</label><br>
+                <input type="text" id="lname" name="lname" value="0918743642">
+              </form>
+            <p>Soy estudiante de Quinto semestre en Sistemas de información</p>
+        </div>
+        <div class="contenedor2">
+            <h3>Universidad Técnica de Cotopaxi</h3>
+            <img src="https://catalogo.utc.edu.ec/opac-tmpl/bootstrap/custom_utc_images/cabecera2.png" alt="Trulli" width="650" height="333">
+            <br>
+            <a href="https://www.utc.edu.ec/" target="_blank">UTC</a> 
+            <p id="p1" onmousedown="mouseDown()" onmouseup="mouseUp()">Acerca de la Universidad
+                El mundo Académico es cambiante, evoluciona cada día. Es mucho más competitivo y exigente.
+                En la Universidad Técnica de Cotopaxi nos distinguimos por la calidad de nuestros servicios, 
+                el profesionalismo de nuestra gente y la manera en que formamos estudiantes con conocimientos 
+                superlativos y competitivos. Hoy, consolidamos un compromiso en la forma de trabajar y de 
+                comportarnos; Creamos el valor que tú necesitas</p>
+                <script>
+                    function mouseDown() {
+                      document.getElementById("p1").style.color = "red";
+                    }
+                    
+                    function mouseUp() {
+                      document.getElementById("p1").style.color = "green";
+                    }
+                    </script>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
